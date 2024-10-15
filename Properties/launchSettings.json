@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ProcessLogs": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7281",
+      "launchBrowser": false
+    }
+  }
+}
