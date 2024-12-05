@@ -3,8 +3,8 @@
     "Values": {
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
         "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
-        "EventHubName": "",
-        "EventHubsConnectionString": "",
+        "EventHubName": "",       
+        "EventHubsConnection__fullyQualifiedNamespace": "{eventhubs-namespace-name}.servicebus.windows.net",
         "CosmosDBEndpoint": "",
         "CosmosDBDatabaseName": "",
         "CosmosDBContainerName": ""

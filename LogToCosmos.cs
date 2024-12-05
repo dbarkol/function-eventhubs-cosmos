@@ -25,7 +25,7 @@ namespace ProcessLogs
 
         [Function(nameof(LogToCosmos))]
         public async Task Run(
-            [EventHubTrigger("%EventHubName%", Connection = "EventHubsConnectionString")] EventData[] events,
+            [EventHubTrigger("%EventHubName%", Connection = "EventHubsConnection")] EventData[] events,
             FunctionContext context)
         {            
             foreach (EventData eventData in events)
